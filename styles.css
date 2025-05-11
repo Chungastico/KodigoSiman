@@ -1,0 +1,78 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, .btn-principal {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.hero {
+  text-align: center;
+  color: white;
+}
+
+.hero-img {
+  height: 85vh;
+  max-height: 800px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.top-banner {
+  background-color: #73020C;
+  font-weight: bold;
+}
+
+.fondo-oscuro {
+  background-color: #73020C;
+}
+
+.fondo-claro {
+  background-color: #BF9F9F;
+}
+
+.btn-principal {
+  background-color: #BF0426;
+  border: none;
+  color: white;
+}
+
+.btn-principal:hover {
+  background-color: #A60321;
+}
+
+.promo-card {
+  transition: transform 0.3s;
+}
+
+.promo-card:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  color: white;
+  padding: 20px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+.hero-nosotros {
+        background: linear-gradient(to right, #73020cdd, #a60321cc), url('images/tienda.jpg') center/cover no-repeat;
+        color: white;
+        padding: 100px 0;
+        text-align: center;
+        }
+
+        .icono-valores {
+        font-size: 40px;
+        color: #BF0426;
+        }
+
+        .valores p {
+        font-weight: bold;
+        margin-top: 10px;
+        }

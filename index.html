@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promociones Siman El Salvador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fondo-oscuro py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
+          <img src="images/LogoSiman.png" alt="Logo Siman" width="30" height="30">
+          Siman.com
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#promos">Promociones</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="contactanos.html">Contáctanos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner1.png" class="d-block w-100 hero-img" alt="Banner 1">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner2.png" class="d-block w-100 hero-img" alt="Banner 2">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner3.png" class="d-block w-100 hero-img" alt="Banner 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHero" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselHero" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="py-5" id="promos">
+      <div class="container">
+        <h2 class="mb-4 text-center">Promociones Destacadas</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card promo-card">
+              <img src="images/laptop.png" class="card-img-top" alt="Promo 1" />
+              <div class="card-body">
+                <h5 class="card-title">Hasta 50% en Electrónica</h5>
+                <p class="card-text">Descubre nuestras ofertas en televisores, laptops y más.</p>
+                <a href="#" class="btn btn-principal">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card promo-card">
+              <img src="images/vestido.webp" class="card-img-top" alt="Promo 2" />
+              <div class="card-body">
+                <h5 class="card-title">Moda hasta con 40%</h5>
+                <p class="card-text">Viste con estilo con nuestras nuevas colecciones con descuento.</p>
+                <a href="#" class="btn btn-principal">Explorar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card promo-card">
+              <img src="images/mueble.jpg" class="card-img-top" alt="Promo 3" />
+              <div class="card-body">
+                <h5 class="card-title">Hogar con precios bajos</h5>
+                <p class="card-text">Muebles y decoración a precios especiales por tiempo limitado.</p>
+                <a href="#" class="btn btn-principal">Detalles</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer text-center fondo-oscuro">
+      <div class="container">
+        <p class="mb-0">&copy; 2025 Siman El Salvador. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
